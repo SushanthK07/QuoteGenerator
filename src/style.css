@@ -1,0 +1,61 @@
+:root {
+    --theme: mediumorchid;
+}
+
+.main-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--theme);
+}
+
+#quote-box {
+    padding: 40px;
+    max-width: 60%;
+    background-color: #ffffff;
+    margin: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#quote-icon {
+    color: var(--theme);
+    font-size: 35px;
+    padding-right: 20px;
+}
+
+#text {
+    color: var(--theme);
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#author {
+    color: var(--theme);
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#twitterIcon, #instaIcon {
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: var(--theme);
+}
+
+#new-quote {
+    color: #ffffff;
+    background-color: var(--theme);
+    
+}
+
+#myName {
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
